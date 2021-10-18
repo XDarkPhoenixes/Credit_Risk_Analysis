@@ -6,23 +6,29 @@ Employ different techniques to train and evaluate models with unbalanced classes
 ## Results
 
 - Using Naive Random Oversampling, the balanced accuracy score is 65%, the precision for the high risk is extremely low only at 1%, and the sensitivity at 73%.
+
 ![RanOver](https://user-images.githubusercontent.com/84931545/137801542-542848a2-ac41-49e7-bbc6-fe0099f6562d.PNG)
 
 
 - Using SMOTE oversampling, the balanced accuracy score is 66%, the precision for the high risk is again at 1% with recall at 63%.
+
 ![SMOTE](https://user-images.githubusercontent.com/84931545/137801556-c7417c36-abe9-4419-89e9-a859c484f88f.PNG)
 
 - Using the Cluster Centroid Undersampling model, the balanced accuracy score is 54%, with recall at 69% and precision at 1%.
+
 ![UnderS](https://user-images.githubusercontent.com/84931545/137801573-89bbbb32-094c-40fe-a585-005ae1c61280.PNG)
 
 - Using the combinatorial approach SMOTEENN, the balanced accuracy score is 62%, the precision for the high risk is also at 1% with sensitivity at 68%. 
+
 ![SMOTEENN](https://user-images.githubusercontent.com/84931545/137802049-434a0efa-3dba-4deb-99ab-8e4170776185.PNG)
 
 - Using the Balanced Random Forest Classifier, the balanced accuracy score is 79%, the precision for the high risk is at 3%, and the sensitivity is at 70%.
+
 ![BlaEn](https://user-images.githubusercontent.com/84931545/137802068-726b988f-f596-41df-902f-46ba5f3d64f4.PNG)
 
 
 - Using the Easy Ensemble AdaBoost Classifier, the balanced accuracy score is 93%, the precision for the high risk is at 9%, and the recall is at 92%.
+
 ![easyens](https://user-images.githubusercontent.com/84931545/137802110-8e08fdd5-87ae-4050-94c2-7f4c6687e7fa.PNG)
 
 
